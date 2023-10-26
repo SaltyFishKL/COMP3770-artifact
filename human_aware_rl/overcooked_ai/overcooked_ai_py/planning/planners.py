@@ -1523,7 +1523,7 @@ class Heuristic(object):
         onions_in_transit = objects_dict['onion'] + player_objects['onion']
         tomatoes_in_transit = objects_dict['tomato'] + player_objects['tomato']
 
-        num_pot_to_delivery = max([0, num_deliveries_to_go - len(soups_in_transit)])
+        num_pot_to_delivery = max([0, num_deliveries_to_go - len(soups_in_transit)]) + 0.5
         num_dish_to_pot = max([0, num_pot_to_delivery - len(dishes_in_transit)])
 
         num_pots_to_be_filled = num_pot_to_delivery - len(full_soups_in_pots)
