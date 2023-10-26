@@ -1,3 +1,9 @@
+# COMP3770 Artifact
+Sections:
+* PECAN - Adjustment to PECAN model for the investigation of whether human data helps to make human players prefer the model more.
+* Analysis - Statistically analysed the data collected from the experiment
+
+
 # PECAN
 <p align="center">
   <img src="dalle.png" width="30%">
